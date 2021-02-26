@@ -7,6 +7,7 @@ import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import resumeData from './resumeData';
+ require ['./script1.js', './script2.js']
 class App extends Component {
   render() {
     return (
